@@ -1,4 +1,4 @@
-gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#3c3c3e\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#16a085\nselected_fg_color:#FFFFFF\ntext_color:#3c3c3e\nbg_color:#F3F3F5\ninsensitive_bg_color:#F4F4F2\ntooltip_bg_color:#343434\nlink_color:#4080fb"
+gtk-color-scheme = "base_color:#F9F9F9\nfg_color:#3c3c3e\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#16a085\nselected_fg_color:#FFFFFF\ntext_color:#3c3c3e\nbg_color:#F3F3F5\ninsensitive_bg_color:#F4F4F2\ntooltip_bg_color:#343434\nlink_color:#4080fb"
 
 gtk-icon-sizes		= "gtk-button=16,16" # This makes button icons smaller.
 gtk-auto-mnemonics = 1
@@ -2380,6 +2380,37 @@ style "xfwm-tabwin-button" {
   font_name = "bold"
   bg[SELECTED] = @selected_bg_color
 }
+
+## -------------------------------------
+## rabideau's contribution for xfce <---
+
+# Toolbar style
+gtk-toolbar-style = GTK_TOOLBAR_ICONS
+#Right Side
+style "darkback"
+{
+   bg[NORMAL] = "#494B4E"
+   bg[ACTIVE] = "#1A1A1A"
+   fg[NORMAL] = "#f9f9f9"
+
+}
+widget "whiskermenu-window*" style "darkback"
+
+#Favorites "Box"
+style "darktree"
+{
+   base[PRELIGHT] = "#436E65"
+
+
+   #normal text
+   text[NORMAL] = "#1A1A1A"
+   #active text
+   text[ACTIVE] = "#ffffff"
+}
+widget "whiskermenu-window*TreeView*" style "darktree"
+
+## end rabideau's contribution --->
+## --------------------------------
 
 # Chromium
 style "chrome-gtk-frame" {
