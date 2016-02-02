@@ -3,8 +3,8 @@
  * ... contains a few cinnamon specific styles (rare occurences) 
  * ###################################################################*/
 stage {
-  font-family: sans, sans-serif;
-  font-size: 9pt;
+  font-family: Cantarell;
+  font-size: 10pt;
   color: white;
 }
 
@@ -274,7 +274,7 @@ StScrollBar StButton#vhandle:active {
  * Panel (panel.js)
  * ===================================================================*/
 #panel {
-  font-weight: bold;
+  font-weight: normal;
   height: 26px;
   min-height: 26px;
 }
@@ -341,7 +341,7 @@ StScrollBar StButton#vhandle:active {
   border-widht: 0;
   -natural-hpadding: 3px;
   -minimum-hpadding: 3px;
-  font-weight: bold;
+  font-weight: normal;
   color: white;
   height: 22px;
 }
