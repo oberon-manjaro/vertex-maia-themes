@@ -1,0 +1,10 @@
+{ 
+   "cinnamon-theme": {
+   "name": "Vertex-Maia", 
+   "author": "horst3180", 
+   "version": "20150306",
+   "type":   "custom",
+   "thumbnail": "thumbnail.png", 
+   "url": "" 
+    }
+}
