@@ -1,4 +1,4 @@
-gtk-color-scheme = "base_color:#F9F9F9\nfg_color:#3c3c3e\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#16a085\nselected_fg_color:#FFFFFF\ntext_color:#3c3c3e\nbg_color:#F3F3F5\ninsensitive_bg_color:#F4F4F2\ntooltip_bg_color:#343434\nlink_color:#4080fb"
+gtk-color-scheme = "base_color:#F9F9F9\nfg_color:#3c3c3e\ntooltip_fg_color:#F9F9F9\nselected_bg_color:#16a085\nselected_fg_color:#F9F9F9\ntext_color:#3c3c3e\nbg_color:#F3F3F5\ninsensitive_bg_color:#F4F4F2\ntooltip_bg_color:#343434\nlink_color:#16a085"
 
 gtk-icon-sizes		= "gtk-button=16,16" # This makes button icons smaller.
 gtk-auto-mnemonics = 1

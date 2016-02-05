@@ -12,7 +12,7 @@
    viewBox="0 0 149.99998 150"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="launcher_icon_selected_back_150.svg">
   <metadata
      id="metadata16">
@@ -34,15 +34,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1855"
-     inkscape:window-height="985"
+     inkscape:window-width="1280"
+     inkscape:window-height="745"
      id="namedview14"
      showgrid="true"
-     inkscape:zoom="25.173333"
-     inkscape:cx="141.56568"
-     inkscape:cy="141.82491"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="134.83832"
+     inkscape:cy="65.969368"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -74,4 +74,11 @@
      y="1"
      transform="translate(-1e-5,0)"
      ry="1" />
+  <rect
+     style="opacity:1;fill:#60af9a;fill-opacity:1"
+     id="rect4136"
+     width="148.93935"
+     height="147.87868"
+     x="-7.6293945e-06"
+     y="0" />
 </svg>
