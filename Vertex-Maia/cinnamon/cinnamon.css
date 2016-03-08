@@ -1306,7 +1306,7 @@ StScrollBar StButton#vhandle:active {
 #menu-search-entry {
   padding: 8px 12px 9px 12px;
   width: 250px;
-  height: 15px;
+  height: 17px;
   transition-duration: 300;
   color: white;
   caret-color: white;
