@@ -2708,7 +2708,7 @@ GtkProgressBar {
   .progressbar.left.right {
     box-shadow: none; }
   .progressbar.vertical {
-    background-image: linear-gradient(to right, #16a085 #16a085);
+    background-image: linear-gradient(to right, #16a085, #16a085);
     box-shadow: inset 1px 0 #9cbdfc;
     border-bottom-width: 1px;
     border-right-width: 2px; }
